@@ -1,0 +1,18 @@
+Data Structures:
+- ArrayLists
+- HashTables
+- Trees
+- Graphs
+- Stacks / Queues
+- Heaps
+
+Concepts:
+- Big O: To get the runtime of an algorithm 
+  > drop constans
+  > sum steps
+  > nested loops for same input O(N^2)
+  > nested loops for diff input O(N * P)
+  > fibo O(2^K)
+  
+- Recursion
+- Memoization / Dyanmic programming
