@@ -1,7 +1,7 @@
 
-package problems;
+package com.coding.minstack;
 
-class MinStack {
+public class MinStackArray {
     
     private int min;
     private int current;
@@ -10,7 +10,7 @@ class MinStack {
     private int maxSize = 100;
 
     /** initialize your data structure here. */
-    public MinStack() {
+    public MinStackArray() {
         stack = new int[maxSize];
         current = -1;
         min = -1;

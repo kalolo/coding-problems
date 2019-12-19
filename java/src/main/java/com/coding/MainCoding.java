@@ -1,9 +1,13 @@
-package problems;
+package com.coding;
 
-class App {
+import com.coding.minstack.MinStackArray;
+
+public class MainCoding {
     public static void main(String[] args) {
 
-        MinStack minStack = new MinStack();
+        System.out.println("[+] Testing Min Stack ");
+
+        MinStackArray minStack = new MinStackArray();
 
         minStack.push(10);
         minStack.push(1);
@@ -15,6 +19,12 @@ class App {
         System.out.println("Current Min Value: " +minStack.getMin());
 
         minStack.pop();
+        minStack.push(-300);
+        minStack.push(-123);
+        minStack.pop();
+        minStack.push(700);
+        minStack.push(321);
+
 
         minStack.print();
         
